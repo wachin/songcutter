@@ -1,0 +1,10 @@
+# Runtime dependencies for SongCutter.
+# Install with: python -m pip install -r requirements.txt
+PyQt6>=6.5,<7
+numpy>=1.24
+noisereduce>=3.0
+platformdirs>=4.0
+
+# External programs (not installable with pip):
+#   ffmpeg, ffprobe  -> required for decoding, peaks, frames and export
+#   sox              -> optional, second noise-reduction engine
